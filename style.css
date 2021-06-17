@@ -1,13 +1,22 @@
 *{
-  font-family: 'EB Garamond', serif;
-  background-color: #ffb6c1;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+    margin: 0;
+    color: #FFFAFA;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: #FFC0CB;
 }
 
 nav{
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #000000;
+  background-color: #FF69B4;
 }
 
 
@@ -21,10 +30,23 @@ nav ul{
 
 nav a{
   text-decoration: none;
-  padding: 20px, 25px;
+  padding: 20px 25px;
   color: #FFFFFF;
 }
 
-nav li{
-  padding: 25px;
+nav a:hover{
+  background-color: #C71585;
+  transition: 1s;
+}
+
+.text-block p{
+  margin: 50px auto;
+  max-width: 1200px;
+  width: 80%;
+  line-height: 150%;
+  text-align: justify;
+  padding-top: 70px;
+
+#dif{
+    background-color: #DDA0DD;
 }
