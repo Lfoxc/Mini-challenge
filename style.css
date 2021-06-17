@@ -8,7 +8,7 @@ body {
     color: #FFFAFA;
     font-family: 'EB Garamond', serif;
     font-size: 20px;
-    line-height: 1.6;
+    line-height: 150%;
     background-color: #FFC0CB;
 }
 
@@ -26,6 +26,7 @@ nav li, nav a{
 
 nav ul{
   float: right;
+  text-align: center;
 }
 
 nav a{
@@ -41,12 +42,31 @@ nav a:hover{
 
 .text-block p{
   margin: 50px auto;
-  max-width: 1200px;
-  width: 80%;
-  line-height: 150%;
   text-align: justify;
-  padding-top: 70px;
+  padding: 40px;
+}
 
 #dif{
-    background-color: #DDA0DD;
+  background-color: #DDA0DD;
+}
+
+.txtxtxt{
+  margin: 50px auto;
+  max-width: 1200px;
+  width: 80%;
+  text-align: justify;
+  padding: 40px;
+  background-color: #DDA0DD;
+}
+
+.image{
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+
+.image img{
+  width: 100%;
 }
